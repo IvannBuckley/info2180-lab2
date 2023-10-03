@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set default styles */
+body {
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+header {
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+profile-pic {
+    border-radius: 50%; /* This will create a circular shape */
+    width: 200px;
+    height: 200px; 
+}
+
+
+main {
+    grid-column: 2 / 3;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #48BB78;
+}
+
+p {
+    color: #718096;
+}
+
+aside {
+    grid-column: 3 / 4;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#About {
+    background-color: #E2E8F0;
+    padding: 10px;
+}
+
+footer {
+    background-color: #2C5282;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #4299E1;
+}
